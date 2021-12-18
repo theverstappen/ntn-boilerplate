@@ -1,6 +1,6 @@
 ---
 createdAt: 2021-03-01
-title: How to edit the contentx
+title: How to update the blog post using Netlify admin panel ?
 description: And what to expect when running a repo-based CMS
 ---
 
