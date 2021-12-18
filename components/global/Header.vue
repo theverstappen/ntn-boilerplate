@@ -2,13 +2,16 @@
   <nav class="scrim-bg w-full fixed z-40 top-0 inset-x-0px-3" aria-label="Main Menu">
     <ul class="flex">
       <li class="py-3 ml-5">
-        <nuxt-link class="btn" to="/">Home</nuxt-link>
+        <nuxt-link class="btn font-sans" to="/">Home</nuxt-link>
       </li>
       <li class="py-3 ml-5">
         <nuxt-link class="btn" to="/blog">Blog</nuxt-link>
       </li>
       <li class="py-3 ml-5">
         <nuxt-link class="btn" to="/projects">Projects</nuxt-link>
+      </li>
+      <li class="py-3 ml-5">
+        <nuxt-link class="btn" to="/about">About</nuxt-link>
       </li>
     </ul>
   </nav>
@@ -23,20 +26,7 @@ export default {
 <style lang="postcss" scoped>
 .scrim-bg {
   border-bottom: 1px solid var(--color-primary-100);
-  &::before {
-    content: '';
-    z-index: -1;
-    background-color: var(--bg);
-    @apply absolute bottom-0 inset-x-0 h-12 mb-4 transition-colors duration-200 ease-in-out;
-  }
-  &::after {
-    content: '';
-    z-index: -1;
-    opacity: 1;
-    animation: fadeIn1 500ms ease-in-out;
-    @apply pointer-events-none absolute bottom-0 inset-x-0 h-16 -mb-12;
-    background: linear-gradient(to bottom, #111827, cubic-bezier(0.15, 0, 0.45, 1), transparent);
-  }
+  background-color: var(--bg);
 }
 .nuxt-link-exact-active {
   @apply text-primary-300 font-bold;
@@ -46,7 +36,6 @@ export default {
   & .scrim-bg {
     &::after {
       animation-name: fadeIn2;
-      background: linear-gradient(to bottom, #e5e7eb, cubic-bezier(0.15, 0, 0.45, 1), transparent);
     }
   }
   & .nuxt-link-exact-active {

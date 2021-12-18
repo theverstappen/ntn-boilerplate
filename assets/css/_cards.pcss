@@ -9,11 +9,8 @@
       }
 
       &.card--clickable {
-        &:hover {
-          @apply border-primary-300 bg-primary-800 text-white;
-          & .card-title {
-            @apply text-white;
-          }
+        &.card-title {
+
         }
       }
     }
@@ -28,6 +25,9 @@
   }
   .card-title {
     @apply font-bold;
+    &:hover {
+      @apply bg-primary-300 text-white rounded;
+    } 
   }
 
   .cover-image {
@@ -41,12 +41,6 @@
         @apply border-primary-400;
 
         &.card--clickable {
-          &:hover {
-            @apply border-primary bg-primary-200 text-primary-900;
-            & .card-title {
-              @apply text-primary-900;
-            }
-          }
         }
       }
     }

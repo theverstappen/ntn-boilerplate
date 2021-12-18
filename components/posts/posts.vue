@@ -25,8 +25,7 @@
                   mt-0
                   py-1
                   px-2
-                  bg-gray
-                  text-white text-base
+                  text-black text-base
                   font-medium
                   rounded-sm
                   whitespace-no-wrap
@@ -98,7 +97,7 @@ export default {
   methods: {
     formatDate(dateString) {
       const date = new Date(dateString)
-      return date.toLocaleDateString(process.env.lang) || ''
+      return date.toLocaleDateString('tr-TR') || ''
     },
     async fetchPosts(postType = this.postType, amount = this.amount, sortBy = this.sortBy) {
       return this.$content(postType)

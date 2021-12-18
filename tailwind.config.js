@@ -10,7 +10,7 @@ module.exports = {
     darkMode: 'class',
     extend: {
       fontFamily: {
-        sans: ['Helvetica'],
+        sans: ['Poppins'],
       },
       colors: {
         purple: {
