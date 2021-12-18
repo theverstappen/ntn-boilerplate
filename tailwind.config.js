@@ -10,9 +10,12 @@ module.exports = {
     darkMode: 'class',
     extend: {
       fontFamily: {
-        sans: ['Inter']
+        sans: ['Helvetica'],
       },
       colors: {
+        purple: {
+          '100': 'var(--color-purple-100)',
+        },
         gray: {
           '50': 'var(--color-gray-50)', // #F9FAFB
           '100': 'var(--color-gray-100)', // #F3F4F6

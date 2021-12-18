@@ -1,6 +1,6 @@
 ---
 createdAt: 2021-03-01
-title: How to edit the content
+title: How to edit the contentx
 description: And what to expect when running a repo-based CMS
 ---
 

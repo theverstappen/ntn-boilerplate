@@ -39,6 +39,20 @@ collections:
               pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'],
             }
           # - { label: Site Email, name: siteemail, widget: string, required: false }
+  - name: 'about'
+    label: 'About'
+    folder: 'content/about'
+    create: true
+    format: 'frontmatter'
+    slug: '{{fields.createdAt}}-{{slug}}'
+    # editor:
+    #   preview: true
+    fields:
+      - { label: 'Profile Picture', name: 'thumbnail', widget: 'image', required: true, choose_url: true, default: "https://media-exp1.licdn.com/dms/image/C5603AQHfGfuDKxTGJg/profile-displayphoto-shrink_800_800/0/1613125184487?e=1645056000&v=beta&t=cwiHoTynuzaFtJ216nEcsnm_Ob1L_iCiEwCzMpv8VMU"  }
+      - { label: 'Title', name: 'title', widget: 'string', required: true }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: true }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }          
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
