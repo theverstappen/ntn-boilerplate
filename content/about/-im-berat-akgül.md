@@ -1,4 +1,5 @@
 ---
+thumbnail: https://media-exp1.licdn.com/dms/image/C5603AQHfGfuDKxTGJg/profile-displayphoto-shrink_800_800/0/1613125184487?e=1645056000&v=beta&t=cwiHoTynuzaFtJ216nEcsnm_Ob1L_iCiEwCzMpv8VMU
 title: I'm Berat Akgül
 subtitle: software developer · piano player · fitness enthusiast · hiphop lover
 description: "Super Official Third Person Bio™:  Berat Akgül is a principal
