@@ -2,13 +2,9 @@
 thumbnail: /img/screen-shot-2022-01-11-at-23.08.46.png
 title: I'm Berat Akgül
 subtitle: software developer · piano player · fitness enthusiast · hiphop lover
-description: "Super Official Third Person Bio™:  Berat Akgül is a principal
-  developer experience engineer at Netlify and the host of Learn With Jason, a
-  live-streamed video show where he pairs with people in the community to learn
-  something new in 90 minutes. He’s passionate about building healthy, efficient
-  teams and systems, and he’s done his best to positively influence the
-  community, leadership, and technical health of open source and companies
-  including Gatsby and IBM. He lives in Portland, Oregon."
+description: "Super Official Third Person Bio™:  Berat Akgül is a front end
+  developer Kariyer.net. He’s passionate about front end technologies, hip hop
+  and basketball. He lives in Kadikoy, Istanbul.."
 ---
 ## What I Do for a Living
 
