@@ -7,7 +7,7 @@ description: The spread operator in JavaScript is a useful syntax for adding
 ---
 The spread operator in JavaScript is a useful syntax for adding elements to an array, combining arrays into one larger one, spreading an array inside the arguments of a function, and more.
 
-```js{1,4}\[posts.vue]
+```javascript
 // Concatenating arrays and objects
 let arr1 = [1,2,3]; 
 let arr2 = [4,5]; 
