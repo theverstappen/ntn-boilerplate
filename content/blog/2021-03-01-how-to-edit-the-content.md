@@ -1,9 +1,7 @@
 ---
 createdAt: 2022-01-11T19:59:19.490Z
 title: What is a spread operator?
-description: The spread operator in JavaScript is a useful syntax for adding
-  elements to an array, combining arrays into one larger one, spreading an array
-  inside the arguments of a function, and more.
+description: ""
 ---
 The spread operator in JavaScript is a useful syntax for adding elements to an array, combining arrays into one larger one, spreading an array inside the arguments of a function, and more.
 
