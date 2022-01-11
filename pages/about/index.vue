@@ -8,7 +8,7 @@
             <span class="flex-1">
               <div class="mt-3 text-base text-2xl text-center font-black">{{ about.title }}</div>
               <div class="text-sm font-ligth text-center">{{ about.subtitle }}</div>
-              <p v-if="false" class="mt-2">{{ about.description }}</p>
+              <p class="mt-4 text-center">{{ about.description }}</p>
             </span>
           </template>
         </div>

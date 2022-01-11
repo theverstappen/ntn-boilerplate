@@ -7,9 +7,9 @@
       <li class="py-3 ml-5">
         <nuxt-link class="btn" to="/blog">Blog</nuxt-link>
       </li>
-      <li class="py-3 ml-5">
+      <!-- <li class="py-3 ml-5">
         <nuxt-link class="btn" to="/projects">Projects</nuxt-link>
-      </li>
+      </li> -->
       <li class="py-3 ml-5">
         <nuxt-link class="btn" to="/about">About</nuxt-link>
       </li>
